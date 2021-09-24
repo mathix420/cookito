@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "module": "commonjs",
+      "target": "ES2016",
+      "sourceMap": true,
+      "declaration": true,
+      "declarationMap": true,
+      "noEmitOnError": true,
+      "skipLibCheck": true,
+      "esModuleInterop": true,
+      "types": []
+    },
+    "exclude": [
+      "node_modules",
+      "dist"
+    ]
+  }

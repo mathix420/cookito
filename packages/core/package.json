@@ -1,0 +1,31 @@
+{
+  "name": "@cookito/core",
+  "version": "0.0.0",
+  "description": "Core cookito package.",
+  "keywords": [
+    "boilerplate",
+    "generator"
+  ],
+  "author": "Arnaud Gissinger <agissing@student.42.fr>",
+  "homepage": "https://github.com/mathix420/cookito/tree/main/packages/core#readme",
+  "license": "GPL-3.0-only",
+  "main": "dist/core.js",
+  "directories": {
+    "test": "__tests__"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mathix420/cookito.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "build": "tsc -p tsconfig.build.json",
+    "dev": "tsc -w -p tsconfig.build.json"
+  },
+  "bugs": {
+    "url": "https://github.com/mathix420/cookito/issues"
+  }
+}

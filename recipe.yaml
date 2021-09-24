@@ -1,0 +1,25 @@
+name: Example recipe
+
+global-plugins:
+  - '@cookito/husky'
+  - '@cookito/vscode'
+  - '@mathix420/cookito-husky-template'
+
+projects:
+  .:
+    base: '@cookito/nuxt-base'
+    plugins:
+      - '@cookito/eslint'
+      - '@cookito/prettier'
+      - '@cookito/npm'
+        dependencies:
+            - '@vuito/vue'
+            - 'lodash'
+        devDependencies:
+            - 'dotenv'
+
+  api:
+    base: '@cookito/typescript'
+    plugins:
+      - '@cookito/prettier'
+      - '@cookito/'

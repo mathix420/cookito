@@ -1,0 +1,12 @@
+# Build
+dist/
+
+# NPM
+node_modules/
+
+# Lerna
+lerna-debug.log
+
+# Other
+*~
+*.DS_Store

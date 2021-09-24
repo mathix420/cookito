@@ -1,0 +1,39 @@
+{
+  "name": "cookito",
+  "version": "0.0.1",
+  "description": "Cook your perfect boilerplate.",
+  "main": "index.js",
+  "workspaces": [
+    "packages/*"
+  ],
+  "private": true,
+  "scripts": {
+    "postinstall": "husky install .linter/husky",
+    "lint": "eslint . --ext .ts",
+    "lintfix": "npm run lint -- --fix",
+    "clean": "rm -rf packages/*/dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mathix420/cookito.git"
+  },
+  "keywords": [],
+  "author": "Arnaud Gissinger",
+  "license": "GPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/mathix420/cookito/issues"
+  },
+  "homepage": "https://github.com/mathix420/cookito",
+  "devDependencies": {
+    "@types/node": "^16.9.6",
+    "@typescript-eslint/eslint-plugin": "^4.31.2",
+    "@typescript-eslint/parser": "^4.31.2",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "husky": "^7.0.2",
+    "lerna": "^4.0.0",
+    "prettier": "^2.4.1",
+    "typescript": "^4.4.3"
+  }
+}
