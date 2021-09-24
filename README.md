@@ -25,6 +25,10 @@ lerna run dev
 cookito bake
 # Using a recipe
 cookito bake -r recipe.yaml
+# Using a remote recipe
+cookito bake -r 'https://mathix.ninja/nuxt-recipe.yaml'
+# Using a remote recipe (NPM)
+cookito bake -r '@plsr/nuxt-recipe'
 ```
 
 ## Recipe
