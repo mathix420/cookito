@@ -45,7 +45,7 @@ projects:
     plugins:
       - '@cookito/eslint'
       - '@cookito/prettier'
-      - '@cookito/npm'
+      - '@cookito/npm':
         dependencies:
             - '@vuito/vue'
             - 'lodash'

@@ -8,12 +8,13 @@
     "cli"
   ],
   "bin": {
-    "cookito": "./dist/cli.js"
+    "cookito": "./dist/src/cli.js"
   },
+  "type": "module",
   "author": "Arnaud Gissinger <agissing@student.42.fr>",
   "homepage": "https://github.com/mathix420/cookito/tree/main/packages/cli#readme",
   "license": "GPL-3.0-only",
-  "main": "dist/cli.js",
+  "main": "dist/src/cli.js",
   "directories": {
     "test": "__tests__"
   },
@@ -34,9 +35,13 @@
     "url": "https://github.com/mathix420/cookito/issues"
   },
   "dependencies": {
-    "commander": "^8.2.0"
+    "commander": "^8.2.0",
+    "node-fetch": "^3.1.0",
+    "package-name-regex": "^2.0.4",
+    "yaml": "^1.10.2"
   },
   "devDependencies": {
-    "@types/node": "^16.9.6"
+    "@types/node": "^16.9.6",
+    "@types/package-name-regex": "^2.0.0"
   }
 }
